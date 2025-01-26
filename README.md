@@ -90,7 +90,7 @@
 - - Localhost
 
 # Links
-- Live Application: Kid Canvas Live
+- Live Application: https://kidcanvas.onrender.com
 
 # Conclusion
 - Kid Canvas combines cutting-edge AI to transform storytelling, offering children a personalized, multisensory experience. The project aims to make learning and imagination fun, accessible, and inclusive for all.
