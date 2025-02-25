@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 
 stability_api = stability_sdk.client.StabilityInference(
-    key="sk-2ZLCVzRkCliBhSLAmmHb1qONn7Egxo2TZWVrZiKMPx1wsVpQ",  # Replace with your Stability AI API key
+    key="",  # Replace with your Stability AI API key
     verbose=True,  # Enable logging for debugging
 )
 
@@ -75,7 +75,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 # Ensure the upload folder exists
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
-genai.configure(api_key="AIzaSyAawh0tRqyCOsyz7x9GxVbV_tkUzBsZ59s")
+genai.configure(api_key="")
 # Replace with your Vision API key
 
 # Function to encode the image to base64
