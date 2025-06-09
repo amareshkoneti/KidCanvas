@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 
 stability_api = stability_sdk.client.StabilityInference(
-    key="sk-JlpwNctb3ubAB3vDkvAkebt6QxXJScDDScncMOH3blwbDltp",  # Replace with your Stability AI API key
+    key="sk-BLWThqWKUncyox8O2LzbTWMi9LQbuLa3RGLdyorGusJio7cD",  # Replace with your Stability AI API key
     verbose=True,  # Enable logging for debugging
 )
 
